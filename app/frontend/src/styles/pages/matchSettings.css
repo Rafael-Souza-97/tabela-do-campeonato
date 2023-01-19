@@ -1,0 +1,117 @@
+.match-settings-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 83vh;
+  justify-content: center;
+}
+
+.match-settings-form {
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  height: 409px;
+  justify-content: space-evenly;
+  width: 865px;
+}
+
+.match-settings-form label {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  width: min-content;
+}
+
+.match-settings-form-options {
+  align-items: center;
+  display: flex;
+}
+
+.match-settings-form-options label p {
+  color: #29313d;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  height: 19px;
+  line-height: 19px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.match-settings-form-options label select, .match-settings-form-options label input {
+  background: white;
+  border: 1px solid #c5c9ce;
+  border-radius: 8px;
+}
+
+.match-settings-form-options label select {
+  cursor: pointer;
+  height: 45px;
+  padding: 12px 16px;
+  width: 268px;
+}
+
+.match-settings-form-options label input {
+  height: 45px;
+  text-align: center;
+  width: 60px;
+}
+
+.match-settings-form-buttons button {
+  border: 1px solid #003be5;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  height: 40px;
+  line-height: 150%;
+  text-align: center;
+  width: 164px;
+}
+
+.match-settings-form-buttons button:disabled {
+  cursor: not-allowed;
+}
+
+.match-settings-form-buttons button:nth-child( 1 ) {
+  background: white;
+  color: #003be5;
+  margin-right: 5px;
+}
+
+.match-settings-form-buttons button:nth-child( 2 ) {
+  background: #003be5;
+  color: white;
+  margin-left: 5px;
+}
+
+.match-settings-form-buttons button:nth-child( 1 ):hover {
+  background: #f0f2f5;
+}
+
+.match-settings-form-buttons button:nth-child( 2 ):hover {
+  background: #002799;
+}
+
+.match-settings-form-versus {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.match-settings-form-versus span:nth-child( 1 ) {
+  flex-grow: 2;
+}
+
+.match-settings-form-versus span:nth-child( 2 ) {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  font-weight: 700;
+}

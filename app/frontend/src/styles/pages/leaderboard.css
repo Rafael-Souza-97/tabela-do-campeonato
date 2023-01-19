@@ -1,0 +1,48 @@
+.classification-handlers form {
+  display: flex;
+}
+
+.classification-handlers form label {
+  color: #3d495c;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.classification-handlers form label select {
+  background: white;
+  border: none;
+  border-bottom: 1px solid #3d495c;
+  color: #c5c9ce;
+  cursor: pointer;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  height: 40px;
+  width: 288px;
+}
+
+.classification-handlers form button {
+  align-self: flex-end;
+  background: #003be5;
+  border: 1px solid #003be5;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  flex-grow: 0;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  height: 40px;
+  line-height: 150%;
+  margin: 0 20px;
+  width: 164px;
+}
+
+.classification-handlers form button:hover {
+  background: #002799;
+}

@@ -1,0 +1,86 @@
+.user-login-area {
+  align-items: center;
+  background: linear-gradient(180.21deg, #fafafa 7.32%, #f0f2f5 101.36%);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.user-login-area img {
+  height: 179px;
+  left: 580px;
+  margin: 50px 0;
+  top: 238px;
+  width: 281px;
+}
+
+.user-login-area form {
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  height: 324px;
+  left: 372px;
+  top: 484px;
+  width: 697px;
+}
+
+.user-login-area form h1 {
+  align-items: center;
+  display: flex;
+  flex-grow: 2;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.user-login-area form input {
+  background: white;
+  border: 1px solid #e1e5eb;
+  border-radius: 8px;
+  display: flex;
+  height: 45px;
+  margin: 5px 0;
+  padding: 12px 16px;
+  width: 519px;
+}
+
+.user-login-area form input::placeholder {
+  color: #6b7588;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.user-login-area form button {
+  background: #003be5;
+  border: 1px #003be5 solid;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  height: 40px;
+  line-height: 150%;
+  margin: 40px 0;
+  text-align: center;
+  width: 519px;
+}
+
+.user-login-area form button:hover {
+  background: #002799;
+}
+
+.user-login-area form p {
+  color: #b01726;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+}

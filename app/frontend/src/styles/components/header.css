@@ -1,0 +1,90 @@
+.common-header {
+  align-items: center;
+  background: #002c33;
+  bottom: 2.33%;
+  display: flex;
+  justify-content: space-between;
+  left: 0%;
+  padding: 20px 50px;
+  right: 0%;
+  top: -2.33%;
+}
+
+.image-content {
+  justify-content: flex-start;
+}
+
+.image-content img {
+  height: 83px;
+  left: 110px;
+  top: 20px;
+  width: 130px;
+}
+
+.common-header h1 {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-grow: 2;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  justify-content: center;
+  line-height: 36px;
+  text-align: center;
+}
+
+.common-header a {
+  align-items: center;
+  background: #2fc18c;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  height: 40px;
+  justify-content: center;
+  line-height: 150%;
+  margin-right: 10px;
+  text-decoration: none;
+  width: 164px;
+}
+
+.common-header a:hover {
+  background: #32a791;
+  transition: (
+    200ms
+    cubic-bezier(0.08, 0.52, 0.52, 1)
+    200ms
+    cubic-bezier(0.08, 0.52, 0.52, 1)
+    box-shadow , 200ms cubic-bezier(0.08, 0.52, 0.52, 1) transform
+  );
+}
+
+.buttons-content {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons-content button {
+  align-items: center;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19px;
+  margin-left: 10px;
+}
+
+.common-header div button img {
+  height: 24px;
+  margin-left: 5px;
+  width: 24px;
+}

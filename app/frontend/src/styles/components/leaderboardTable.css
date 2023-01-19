@@ -1,0 +1,103 @@
+.score-board-table-section {
+  display: flex;
+  justify-content: center;
+  min-width: max-content;
+  padding: 20px 50px;
+}
+
+.score-board-table-section table {
+  height: min-content;
+}
+
+.score-board-table thead th {
+  padding: 15px 0;
+}
+
+.score-board-table thead tr th {
+  color: black;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+}
+
+.score-board-classification {
+  background: #023031;
+  border-radius: 8px;
+  color: white;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  height: 43px;
+  line-height: 22px;
+  min-width: 137px;
+  text-align: center;
+}
+
+.score-board-team-name {
+  background: #036b52;
+  border-radius: 8px;
+  color: white;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  height: 43px;
+  line-height: 22px;
+  min-width: 183px;
+  text-align: center;
+}
+
+.score-board-total-points, .score-board-total-victories {
+  background: #f0f2f5;
+  border-radius: 8px;
+  color: black;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  height: 43px;
+  line-height: 22px;
+  min-width: 87px;
+  text-align: center;
+}
+
+.score-board-total-looses, .score-board-goals-own, .score-board-efficiency {
+  background: #f0f2f5;
+  border-radius: 8px;
+  color: black;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  height: 43px;
+  line-height: 22px;
+  min-width: 87px;
+  text-align: center;
+}
+
+.score-board-total-games, .score-board-total-draws {
+  background: #e1e5eb;
+  border-radius: 8px;
+  color: black;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  height: 43px;
+  line-height: 22px;
+  min-width: 87px;
+  text-align: center;
+}
+
+.score-board-goals-favor, .score-board-goals-balance {
+  background: #e1e5eb;
+  border-radius: 8px;
+  color: black;
+  font-family: Verdana , Tahoma , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  height: 43px;
+  line-height: 22px;
+  min-width: 87px;
+  text-align: center;
+}
