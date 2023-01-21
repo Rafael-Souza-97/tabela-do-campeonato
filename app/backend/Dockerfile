@@ -4,7 +4,7 @@ WORKDIR /app-backend
 
 COPY package* ./
 
-RUN npm i --silent
+RUN npm install --silent
 
 COPY . .
 
