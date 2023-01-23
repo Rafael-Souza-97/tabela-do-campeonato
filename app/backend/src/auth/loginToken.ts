@@ -9,7 +9,7 @@ const jwtConfig: SignOptions = {
 const secret: string = process.env.JWT_SECRET || 'jwt_secret';
 
 export const createNewToken = (user: IToken): string => {
-  const token = sign({ ...user }, secret, jwtConfig);
+  const token = sign(user, secret, jwtConfig);
   return token;
 };
 
@@ -19,6 +19,6 @@ export const tokenVerify = (token: string): IToken => {
     return userDecoded as IToken;
   } catch (error) {
     console.log(error);
-    return { email: 'Token must be a valid token' };
+    return { email: 'Invalid Token' };
   }
 };
