@@ -18,7 +18,7 @@ const tokenControllerValidation = async (req: Request, res: Response) => {
 
   const { type, result } = await tokenServiceValidation(authorization as string);
 
-  if (type === 401 || type === 404) return res.status(type).json({ result });
+  if (type !== 200) return res.status(type).json({ result });
 
   return res.status(type).json({ role: result });
 };
