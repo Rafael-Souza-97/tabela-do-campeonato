@@ -8,4 +8,12 @@ const getAllTeams = async () => {
   return { type: 200, response: teams };
 };
 
-export default getAllTeams;
+const getTeamById = async (id: number) => {
+  const team = await Team.findByPk(id);
+
+  if (!team) return { type: 404, message: 'Team not found' };
+
+  return { type: 200, response: team };
+};
+
+export default { getAllTeams, getTeamById };
