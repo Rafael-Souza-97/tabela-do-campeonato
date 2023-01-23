@@ -6,3 +6,5 @@ const router = Router();
 router.get('/', matchController.getMatches);
 
 export default router;
+
+// teste
