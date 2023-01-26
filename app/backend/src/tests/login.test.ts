@@ -25,8 +25,6 @@ const user = {
   password: 'secret_user',
 };
 
-const tokenDecoded = {role: 'admin'};
-
 describe('Testes da rota /login', () => {
   let chaiHttpResponse: Response;
 
@@ -101,7 +99,7 @@ describe('Testes da rota /login', () => {
   });
 
   it('Deveria falhar caso seja acessado com token inválido', async () => {
-    sinon.stub(jwt, 'verify').resolves(tokenDecoded as any);
+    sinon.stub(jwt, 'verify').resolves({role: 'admin'} as any);
     const result = await chai.request(app).get('/login/validate');
 
     expect(result.status).to.be.equal(400);
