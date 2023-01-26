@@ -4,7 +4,7 @@ import ITeamLeaderboard from '../../interfaces/ITeamLeaderboard';
 export const calculateAwayMatchPoints = (match: Match, teamTotalPoints: number) => {
   const { homeTeamGoals, awayTeamGoals } = match;
 
-  if (homeTeamGoals > awayTeamGoals) return teamTotalPoints + 3;
+  if (homeTeamGoals < awayTeamGoals) return teamTotalPoints + 3;
 
   if (homeTeamGoals === awayTeamGoals) return teamTotalPoints + 1;
 
@@ -12,9 +12,9 @@ export const calculateAwayMatchPoints = (match: Match, teamTotalPoints: number) 
 };
 
 const calculateAwayWins = (match: Match, teamTotalWins: number) => {
-  const { awayTeamGoals, homeTeamGoals } = match;
+  const { homeTeamGoals, awayTeamGoals } = match;
 
-  const awayWin = awayTeamGoals > homeTeamGoals ? 1 : 0;
+  const awayWin = homeTeamGoals < awayTeamGoals ? 1 : 0;
 
   const wins = teamTotalWins + awayWin;
 
@@ -22,9 +22,9 @@ const calculateAwayWins = (match: Match, teamTotalWins: number) => {
 };
 
 const calculateAwayDraws = (match: Match, teamTotalDraws: number) => {
-  const { awayTeamGoals, homeTeamGoals } = match;
+  const { homeTeamGoals, awayTeamGoals } = match;
 
-  const awayDraw = awayTeamGoals === homeTeamGoals ? 1 : 0;
+  const awayDraw = homeTeamGoals === awayTeamGoals ? 1 : 0;
 
   const draws = teamTotalDraws + awayDraw;
 
@@ -32,9 +32,9 @@ const calculateAwayDraws = (match: Match, teamTotalDraws: number) => {
 };
 
 const calculateAwayLosses = (match: Match, teamTotalLosses: number) => {
-  const { awayTeamGoals, homeTeamGoals } = match;
+  const { homeTeamGoals, awayTeamGoals } = match;
 
-  const awayDefeat = awayTeamGoals < homeTeamGoals ? 1 : 0;
+  const awayDefeat = homeTeamGoals > awayTeamGoals ? 1 : 0;
 
   const defeats = teamTotalLosses + awayDefeat;
 

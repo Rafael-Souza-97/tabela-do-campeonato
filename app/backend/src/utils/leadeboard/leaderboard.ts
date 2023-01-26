@@ -33,7 +33,6 @@ export function teamData(team: Team, matches: Match[], teamType: string): ITeamL
     }
   });
 
-  console.log(teamPropertyData);
   return teamPropertyData;
 }
 
