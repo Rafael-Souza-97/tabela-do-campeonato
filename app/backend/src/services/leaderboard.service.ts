@@ -31,7 +31,6 @@ const awayLeadeboard = async () => {
 
   const allTeams = await Team.findAll();
   const leaderboard = allTeams.map((team) => teamData(team, awayMatches, 'awayTeam'));
-  console.log(leaderboard);
   const updatedLeaderboard = sortWithLeaderboardRules(leaderboard);
 
   return { type: 200, response: updatedLeaderboard };
