@@ -100,10 +100,10 @@ describe('Testes da rota /login', () => {
 
   it('Deveria falhar caso seja acessado com token inválido', async () => {
     sinon.stub(jwt, 'verify').resolves({role: 'admin'} as any);
-    const result = await chai.request(app).get('/login/validate');
+    const { status, body } = await chai.request(app).get('/login/validate');
 
-    expect(result.status).to.be.equal(400);
-    expect(result.body).to.have.property('response');
-    expect(result.body.response).to.be.equal('Token inexistente');
+    expect(status).to.be.equal(400);
+    expect(body).to.have.property('response');
+    expect(body.response).to.be.equal('Token inexistente');
   });
 });

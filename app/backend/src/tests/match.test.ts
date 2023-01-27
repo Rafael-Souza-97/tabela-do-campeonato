@@ -4,9 +4,6 @@ import * as chai from 'chai';
 import chaiHttp = require('chai-http');
 
 import { app } from '../app';
-import * as jwt from 'jsonwebtoken';
-import Match from '../database/models/Match.model';
-import Team from '../database/models/Team.model';
 
 chai.use(chaiHttp);
 
@@ -20,7 +17,7 @@ const matchMock =  {
   in_progress: false,
 }
 
-const tokenMock = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpZCI6MiwidXNlcm5hbWUiOiJVc2VyIiwiaWF0IjoxNjc0Nzc5MzkyLCJleHAiOjE2NzQ4NjU3OTJ9.IbGE50x30nm-vuLwytWhuRFBUC-iib_5_2a2zq65LkU"
+const tokenMock = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpZCI6MiwidXNlcm5hbWUiOiJVc2VyIiwiaWF0IjoxNjc0Nzc5MzkyLCJleHAiOjE2NzQ4NjU3OTJ9.IbGE50x30nm-vuLwytWhuRFBUC-iib_5_2a2zq65LkU";
 
 
 describe('Testes da rota /matches', () => {
