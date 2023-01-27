@@ -1,4 +1,4 @@
-# Campeonato Brasileiro - TFC
+# Tabela de Campeonato - TFC
 
 Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para reforçar os conhecimentos sobre 
 [programação orientada a objetos](https://blog.betrybe.com/tecnologia/poo-programacao-orientada-a-objetos/#:~:text=A%20programa%C3%A7%C3%A3o%20orientada%20a%20objetos,que%20existe%20s%C3%A3o%20os%20objetos.),
@@ -130,7 +130,7 @@ npm run test:coverage
 
 ## Referências
 
- - [Trybe](https://www.betrybe.com/) - (base do Front End, consumo da API e estilizaçào)
+ - [Trybe](https://www.betrybe.com/) - (Base do Front End, consumo de API e estilizaçào)
 
 ## Tecnologias / Ferramentas utilizadas
 
@@ -147,6 +147,7 @@ npm run test:coverage
 - [Bcrypt](https://www.npmjs.com/package/bcrypt)
 - [POO](https://blog.betrybe.com/tecnologia/poo-programacao-orientada-a-objetos/#:~:text=A%20programa%C3%A7%C3%A3o%20orientada%20a%20objetos,que%20existe%20s%C3%A3o%20os%20objetos.)
 - [SOLID](https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/)
+- [Thunder Client](https://www.thunderclient.com/)
 - [Zoom](https://zoom.us/)
 - [Slack](https://slack.com/intl/pt-br/)
 - [ESLint](https://eslint.org/)
