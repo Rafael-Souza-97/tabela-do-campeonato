@@ -1,8 +1,13 @@
-# Tabela de Campeonato - TFC
+# Tabela do Campeonato - TFC
 
-Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para reforçar os conhecimentos sobre 
-[programação orientada a objetos](https://blog.betrybe.com/tecnologia/poo-programacao-orientada-a-objetos/#:~:text=A%20programa%C3%A7%C3%A3o%20orientada%20a%20objetos,que%20existe%20s%C3%A3o%20os%20objetos.),
-[SOLID](https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/), [Typescript](https://www.typescriptlang.org/), entre outras.
+Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para reforçar os conhecimentos sobre [Typescript](https://www.typescriptlang.org/), [API RESTful](https://blog.betrybe.com/desenvolvimento-web/api-rest-tudo-sobre/), [programação orientada a objetos](https://blog.betrybe.com/tecnologia/poo-programacao-orientada-a-objetos/#:~:text=A%20programa%C3%A7%C3%A3o%20orientada%20a%20objetos,que%20existe%20s%C3%A3o%20os%20objetos.),
+[SOLID](https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/), entre outras.
+
+O projeto "Tabela do Campeonato" é um site informativo sobre partidas e classificações de futebol. Durante o desenvolvimento, minha responsabilidade foi criar uma API e integrar as aplicações através de Docker Compose, para que elas funcionem com um banco de dados. Utilizamos modelagem de dados com Sequelize para construir um back-end dockerizado.
+
+Para adicionar uma partida, é necessário ter um token de autenticação válido. Isso significa que é preciso estar logado para realizar quaisquer alterações na tabela de partidas. Utilizamos modelagem de dados com Sequelize para criar relacionamentos entre as tabelas "teams" e "matches", permitindo assim a atualização das partidas de forma precisa e eficiente.
+
+Com esse projeto, é possível verificar a tabela geral do campeonato, filtrar pela classificação de jogos em casa e fora de casa, além de adicionar e atualizar partidas (desde que esteja logado). Além disso, você pode experimentar o site com o usuário `user@user.com` e a senha `secret_user` ou como administrador com o email `admin@admin.com` e a senha `secret_admin` para ter algumas permissões adicionais.
 
 
 <details>
@@ -71,10 +76,10 @@ Na sua máquina você deve ter:
 
 <br>
 
-- Clone o repositório `git@github.com:Rafael-Souza-97/tabela-de-campeonato.git`:
+- Clone o repositório `git@github.com:Rafael-Souza-97/tabela-do-campeonato.git`:
 
 ```bash
-git clone git@github.com:Rafael-Souza-97/tabela-de-campeonato.git
+git clone git@github.com:Rafael-Souza-97/tabela-do-campeonato.git
 ```
 
 <br>
@@ -82,7 +87,7 @@ git clone git@github.com:Rafael-Souza-97/tabela-de-campeonato.git
 - Entre na pasta do repositório que você acabou de clonar:
 
 ```bash
-cd tabela-de-campeonato
+cd tabela-do-campeonato
 ```
 
 - Instale as depëndencias, caso necessário, com `npm install` (fora do container):
