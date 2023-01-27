@@ -6,3 +6,5 @@
 coverage
 front.eval
 back.eval
+data-testid.md
+/.vscode

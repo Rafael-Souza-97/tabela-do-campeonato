@@ -137,6 +137,13 @@ module.exports = {
           in_progress: false,
         },
         {
+          home_team_id: 18,
+          home_team_goals: 0,
+          away_team_id: 19,
+          away_team_goals: 1,
+          in_progress: false,
+        },
+        {
           home_team_id: 7,
           home_team_goals: 0,
           away_team_id: 9,
@@ -179,6 +186,13 @@ module.exports = {
           in_progress: false,
         },
         {
+          home_team_id: 18,
+          home_team_goals: 1,
+          away_team_id: 20,
+          away_team_goals: 0,
+          in_progress: false,
+        },
+        {
           home_team_id: 13,
           home_team_goals: 1,
           away_team_id: 1,
@@ -196,6 +210,13 @@ module.exports = {
           home_team_id: 16,
           home_team_goals: 3,
           away_team_id: 7,
+          away_team_goals: 0,
+          in_progress: false,
+        },
+        {
+          home_team_id: 20,
+          home_team_goals: 1,
+          away_team_id: 18,
           away_team_goals: 0,
           in_progress: false,
         },
@@ -221,6 +242,13 @@ module.exports = {
           in_progress: false,
         },
         {
+          home_team_id: 19,
+          home_team_goals: 1,
+          away_team_id: 20,
+          away_team_goals: 1,
+          in_progress: false,
+        },
+        {
           home_team_id: 14,
           home_team_goals: 5,
           away_team_id: 11,
@@ -232,6 +260,13 @@ module.exports = {
           home_team_goals: 1,
           away_team_id: 16,
           away_team_goals: 1,
+          in_progress: false,
+        },
+        {
+          home_team_id: 20,
+          home_team_goals: 0,
+          away_team_id: 18,
+          away_team_goals: 0,
           in_progress: false,
         },
         {
@@ -256,6 +291,13 @@ module.exports = {
           in_progress: false,
         },
         {
+          home_team_id: 17,
+          home_team_goals: 1,
+          away_team_id: 19,
+          away_team_goals: 1,
+          in_progress: false,
+        },
+        {
           home_team_id: 15,
           home_team_goals: 0,
           away_team_id: 13,
@@ -274,6 +316,34 @@ module.exports = {
           home_team_goals: 2,
           away_team_id: 11,
           away_team_goals: 0,
+          in_progress: false,
+        },
+        {
+          home_team_id: 19,
+          home_team_goals: 0,
+          away_team_id: 17,
+          away_team_goals: 1,
+          in_progress: false,
+        },
+        {
+          home_team_id: 20,
+          home_team_goals: 1,
+          away_team_id: 17,
+          away_team_goals: 2,
+          in_progress: false,
+        },
+        {
+          home_team_id: 17,
+          home_team_goals: 0,
+          away_team_id: 19,
+          away_team_goals: 0,
+          in_progress: false,
+        },
+        {
+          home_team_id: 17,
+          home_team_goals: 1,
+          away_team_id: 18,
+          away_team_goals: 1,
           in_progress: false,
         },
         {

@@ -18,12 +18,13 @@ CREATE TABLE `teams` (
 --
 
 INSERT INTO `teams` VALUES
-  (1,'Avaí/Kindermann'),(2,'Bahia'),(3,'Botafogo'),
-  (4,'Corinthians'),(5,'Cruzeiro'),(6,'Ferroviária'),
-  (7,'Flamengo'),(8,'Grêmio'),(9,'Internacional'),
-  (10,'Minas Brasília'),(11,'Napoli-SC'),(12,'Palmeiras'),
-  (13,'Real Brasília'),(14,'Santos'),(15,'São José-SP'),
-  (16,'São Paulo');
+  (1,'Athletico PR'),(2,'Bahia'),(3,'Botafogo'),
+  (4,'Palmeiras'),(5,'Cruzeiro'),(6,'Atlético MG'),
+  (7,'Santos'),(8,'Grêmio'),(9,'Internacional'),
+  (10,'RB Bragantino'),(11,'Cuiaba'),(12,'São Paulo'),
+  (13,'Fluminense'),(14,'Flamengo'),(15,'Vasco'),
+  (16,'Corinthians')(17,'Fortaleza'),(18,'Goiás'),
+  (19,'América MG'),(20,'Coritiba');
 
 --
 -- Table structure for table `matches`
