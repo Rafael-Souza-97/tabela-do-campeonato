@@ -4,21 +4,35 @@ Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para r
 [programação orientada a objetos](https://blog.betrybe.com/tecnologia/poo-programacao-orientada-a-objetos/#:~:text=A%20programa%C3%A7%C3%A3o%20orientada%20a%20objetos,que%20existe%20s%C3%A3o%20os%20objetos.),
 [SOLID](https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/), [Typescript](https://www.typescriptlang.org/), entre outras.
 
-### Estrutura
-
-A aplicação possui as seguintes rotas para realizar as operações de CRUD de posts:
-
-- `GET` /posts ou /user: Retorna a lista de todos os posts existentes no banco de dados
-- `GET` /posts/search: Retorna o post pesquisado através de uma query
-- `GET` /posts/:id ou /user/:id : Retorna o post com o id especificado na rota
-- `POST` /posts ou /user: Cria um novo post com os dados enviados no corpo da requisição
-- `PUT` /posts/:id ou /user/:id : Atualiza o post com o id especificado na rota com os dados enviados no corpo da requisição
-- `DELETE` /posts/:id ou /user/:id : Exclui o post com o id especificado na rota
-
-<br>
 
 <details>
-  <summary><strong>Como instalar o Cameponato Brasileiro</strong></summary><br />
+  <summary><strong>Estrutura</strong></summary><br />
+ 
+#### Login
+- **GET** `/validate`: Utiliza o método `tokenControllerValidation` do controlador de login para validar um token de autenticação.
+- **POST** `/`: Utiliza o método `loginValidation` do controlador de login para validar as credenciais de login enviadas e, em seguida, o método `loginValidation` para efetuar o login.
+
+#### Partidas
+- **GET** `/`: Utiliza o método `getMatches` do controlador de partidas para recuperar todas as partidas.
+- **POST** `/`: Utiliza o método `createMatch` do controlador de partidas para criar uma nova partida.
+- **PATCH** `/:id/finish`: Utiliza o método `matchFinished` do controlador de partidas para marcar uma partida como finalizada.
+- **PATCH** `/:id`: Utiliza o método `updateMatch` do controlador de partidas para atualizar uma partida existente.
+
+#### Times
+- **GET** `/`: Utiliza o método `getAllTeams` do controlador de times para recuperar todos os times.
+- **GET** `/:id`: Utiliza o método `getTeamById` do controlador de times para recuperar um time específico pelo ID.
+
+#### Tabelas
+- **GET** `/`: Utiliza o método `leaderboard` do controlador de tabelas para recuperar a tabela geral.
+- **GET** `/home`: Utiliza o método `homeLeaderboard` do controlador de tabelas para recuperar a tabela de jogos em casa.
+- **GET** `/away`: Utiliza o método `awayLeaderboard` do controlador de tabelas para recuperar a tabela de jogos fora de casa.
+
+<br>
+<hr>
+</details>
+
+<details>
+  <summary><strong>Como instalar a Tabela de Campeonato</strong></summary><br />
 
 ## Instalação
  
@@ -57,10 +71,10 @@ Na sua máquina você deve ter:
 
 <br>
 
-- Clone o repositório `git@github.com:Rafael-Souza-97/campeonato-brasileiro.git`:
+- Clone o repositório `git@github.com:Rafael-Souza-97/tabela-de-campeonato.git`:
 
 ```bash
-git clone git@github.com:Rafael-Souza-97/campeonato-brasileiro.git
+git clone git@github.com:Rafael-Souza-97/tabela-de-campeonato.git
 ```
 
 <br>
@@ -68,7 +82,7 @@ git clone git@github.com:Rafael-Souza-97/campeonato-brasileiro.git
 - Entre na pasta do repositório que você acabou de clonar:
 
 ```bash
-cd campeonato-brasileiro
+cd tabela-de-campeonato
 ```
 
 - Instale as depëndencias, caso necessário, com `npm install` (fora do container):
