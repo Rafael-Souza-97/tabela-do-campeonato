@@ -1,6 +1,6 @@
 # Tabela do Campeonato - TFC
 
-Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para reforçar os conhecimentos sobre [Typescript](https://www.typescriptlang.org/), [API RESTful](https://blog.betrybe.com/desenvolvimento-web/api-rest-tudo-sobre/), [programação orientada a objetos](https://blog.betrybe.com/tecnologia/poo-programacao-orientada-a-objetos/#:~:text=A%20programa%C3%A7%C3%A3o%20orientada%20a%20objetos,que%20existe%20s%C3%A3o%20os%20objetos.),
+Aplicação realizada enquanto aluno da [Trybe](https://www.betrybe.com/) para reforçar os conhecimentos sobre [Typescript](https://www.typescriptlang.org/), [API RESTful](https://blog.betrybe.com/desenvolvimento-web/api-rest-tudo-sobre/), [POO](https://blog.betrybe.com/tecnologia/poo-programacao-orientada-a-objetos/#:~:text=A%20programa%C3%A7%C3%A3o%20orientada%20a%20objetos,que%20existe%20s%C3%A3o%20os%20objetos.),
 [SOLID](https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/), entre outras.
 
 O projeto "Tabela do Campeonato" é um site informativo sobre partidas e classificações de futebol. Durante o desenvolvimento, minha responsabilidade foi criar uma API e integrar as aplicações através de Docker Compose, para que elas funcionem com um banco de dados. Utilizamos modelagem de dados com Sequelize para construir um back-end dockerizado.
