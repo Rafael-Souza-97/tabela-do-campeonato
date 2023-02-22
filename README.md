@@ -9,9 +9,12 @@ Para adicionar uma partida, é necessário ter um token de autenticação válid
 
 Com esse projeto, é possível verificar a tabela geral do campeonato, filtrar pela classificação de jogos em casa e fora de casa, além de adicionar e atualizar partidas (desde que esteja logado). Além disso, você pode experimentar o site com o usuário `user@user.com` e a senha `secret_user` ou como administrador com o email `admin@admin.com` e a senha `secret_admin` para ter algumas permissões adicionais.
 
+Para garantir a qualidade e confiabilidade da API construída, foram realizados testes automatizados utilizando as bibliotecas [Mocha](https://mochajs.org/), [Sinon](https://sinonjs.org/), [Chai](https://www.chaijs.com/) e [Jest](https://jestjs.io/). Essas ferramentas permitem a criação de testes unitários, de integração e de aceitação, possibilitando a validação do comportamento da aplicação em diferentes níveis.
+
+<br>
 
 <details>
-  <summary><strong>Estrutura</strong></summary><br />
+  <summary><strong>Rotas</strong></summary><br />
  
 #### Login
 - **GET** `/validate`: Utiliza o método `tokenControllerValidation` do controlador de login para validar um token de autenticação.
@@ -31,10 +34,11 @@ Com esse projeto, é possível verificar a tabela geral do campeonato, filtrar p
 - **GET** `/`: Utiliza o método `leaderboard` do controlador de tabelas para recuperar a tabela geral.
 - **GET** `/home`: Utiliza o método `homeLeaderboard` do controlador de tabelas para recuperar a tabela de jogos em casa.
 - **GET** `/away`: Utiliza o método `awayLeaderboard` do controlador de tabelas para recuperar a tabela de jogos fora de casa.
-
-<br>
+  
 <hr>
 </details>
+
+<br>
 
 <details>
   <summary><strong>Como instalar a Tabela de Campeonato</strong></summary><br />
@@ -136,12 +140,10 @@ docker exec -it app_backend sh
 npm run test:coverage
 ```
 
-<br>
 <hr>
-
-<br>
-
 </details>
+  
+<br>
   
 ## Autor
 
