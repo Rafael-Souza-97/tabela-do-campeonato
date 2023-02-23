@@ -185,11 +185,10 @@ npm run test:coverage
 
 ## Infos Adicionais
 
-- ###### Percentual de cumpriment
-
-o de requisitos ([Trybe](https://www.betrybe.com/))- 100%
+- ###### Percentual de cumprimento de requisitos ([Trybe](https://www.betrybe.com/))- 100%
   
 ## Preview
   
 https://user-images.githubusercontent.com/99055008/220761072-80e8492d-c747-4455-b6e4-df7ca16de46d.mp4
 
+<hr>
